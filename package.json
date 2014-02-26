@@ -1,0 +1,33 @@
+{
+  "name": "turkish-dictionary-api",
+  "version": "0.0.0",
+  "description": "API Server for the official Turkish-to-turkish dictionary by TDK",
+  "main": "index.js",
+  "bin": {
+    "turkish-dictionary-api": "./bin/turkish-dictionary-api"
+  },
+  "scripts": {
+    "test": "prova"
+  },
+  "dependencies": {
+    "circle": "0.0.9",
+    "memoize-with-leveldb": "0.0.1",
+    "new-command": "0.0.1",
+    "debug": "~0.7.4",
+    "scrape-url": "~1.0.1",
+    "strip": "0.0.7",
+    "default-debug": "0.0.0"
+  },
+  "keywords": [
+    "turkish",
+    "dictionary",
+    "api",
+    "server"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/turkish-dictionary-api.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}

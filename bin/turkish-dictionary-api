@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var command = require("new-command")({
+  p: 'port',
+  o: 'hostname'
+});
+
+require("default-debug")('circle:server');
+
+require('../').start(command.port || 3000, command.hostname || '0.0.0.0');

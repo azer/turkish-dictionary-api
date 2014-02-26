@@ -1,0 +1,10 @@
+    USAGE
+
+        turkish-dictionary-api [options]
+
+    OPTIONS
+
+        -p      --port         Specifiy the port number. (Default: 3000)
+        -o      --hostname     Specifiy the hostname. (Default: 0.0.0.0)
+        -v      --version      Show version and exit.
+        -h      --help         Show this help and exist.
