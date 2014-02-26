@@ -1,6 +1,8 @@
 ## turkish-dictionary-api
 
-API Server for the official Turkish-to-turkish dictionary by TDK
+API Server for the official Turkish-to-turkish dictionary by TDK.
+
+See Also: [turkish-synonyms-api](https://github.com/azer/turkish-synonyms-api)
 
 ## Install
 
