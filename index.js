@@ -1,4 +1,4 @@
-var debug = require("debug")('turkish-synonyms-api');
+var debug = require("debug")('api');
 var circle = require("circle");
 var scrape = require("scrape-url");
 var strip = require("strip");
@@ -15,6 +15,8 @@ function definitions (reply, match) {
 }
 
 function pull (word, callback) {
+  debug('Pulling %s', word);
+
   scrape.post({ url: url, form: { kelime: word } }, '#hor-minimalist-a td', function (error, match) {
     if (error) return callback(error);
     if (match.length == 0) return callback(undefined, []);

@@ -5,6 +5,6 @@ var command = require("new-command")({
   o: 'hostname'
 });
 
-require("default-debug")('circle:server');
+require("default-debug")('circle:server,api');
 
 require('../').start(command.port || 3000, command.hostname || '0.0.0.0');
